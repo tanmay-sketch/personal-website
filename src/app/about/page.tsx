@@ -2,12 +2,10 @@
 
 import { BackgroundRippleEffect } from "@/components/BackgroundRippleEffect";
 import { NavbarComponent } from "@/components/Navbar";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Hero from "../components/Hero";
-import Experience from "@/components/Experience";
+import About from "@/components/About";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <div className="relative min-h-screen bg-black overflow-hidden">
       {/* Background effects */}
@@ -17,18 +15,12 @@ export default function Home() {
         {/* Navbar */}
         <NavbarComponent />
         
-        {/* Hero Section */}
-        <Hero />
-        
-        {/* Experience Section */}
-        <Experience />
-
-        {/* Contact Section */}
-        <Contact />
+        {/* About Section */}
+        <About />
         
         {/* Footer */}
         <Footer />
       </main>
     </div>
   );
-}
+} 

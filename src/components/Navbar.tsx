@@ -11,6 +11,7 @@ import {
 } from "@/components/resizable-navbar";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 // Custom logo component for Tanmay
 const CustomLogo = () => {
@@ -25,18 +26,24 @@ const CustomLogo = () => {
 };
 
 export function NavbarComponent() {
+  const pathname = usePathname();
+  
   const navItems = [
+    {
+      name: "About",
+      link: "/about",
+    },
     {
       name: "Projects",
       link: "/projects",
     },
     {
       name: "Experience",
-      link: "#experience",
+      link: pathname === "/" ? "#experience" : "/#experience",
     },
     {
       name: "Contact",
-      link: "#contact",
+      link: pathname === "/" ? "#contact" : "/#contact",
     },
   ];
 
@@ -76,13 +83,15 @@ export function NavbarComponent() {
               </Link>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="secondary"
-                className="w-full"
-              >
-                Contact
-              </NavbarButton>
+              <Link href={pathname === "/" ? "#contact" : "/#contact"}>
+                <NavbarButton
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  variant="secondary"
+                  className="w-full"
+                >
+                  Contact
+                </NavbarButton>
+              </Link>
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
