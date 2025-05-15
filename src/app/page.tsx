@@ -5,6 +5,7 @@ import { NavbarComponent } from "@/components/Navbar";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "../components/Hero";
+// import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         
         {/* Hero Section */}
         <Hero />
+        
+        {/* Experience Section */}
+        {/* <Experience /> */}
         
         {/* Contact Section */}
         <Contact />

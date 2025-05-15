@@ -31,8 +31,8 @@ export function NavbarComponent() {
       link: "/projects",
     },
     {
-      name: "About",
-      link: "#about",
+      name: "Experience",
+      link: "#experience",
     },
     {
       name: "Contact",
