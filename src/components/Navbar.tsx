@@ -4,7 +4,6 @@ import {
   NavBody,
   NavItems,
   MobileNav,
-  NavbarButton,
   MobileNavHeader,
   MobileNavToggle,
   MobileNavMenu,
@@ -12,6 +11,7 @@ import {
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
+import Image from "next/image";
 
 // Custom logo component for Tanmay
 const CustomLogo = () => {
@@ -20,7 +20,15 @@ const CustomLogo = () => {
       href="/"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal"
     >
-      <span className="font-medium text-xl text-white">Tanmay Grandhisiri</span>
+      <div className="h-12 w-12 relative">
+        <Image 
+          src="/logo.svg" 
+          alt="Tanmay Grandhisiri Logo" 
+          fill 
+          className="object-contain"
+          priority
+        />
+      </div>
     </Link>
   );
 };
@@ -82,24 +90,6 @@ export function NavbarComponent() {
                 <span className="block">{item.name}</span>
               </Link>
             ))}
-            <div className="flex w-full flex-col gap-4">
-              <Link href={pathname === "/" ? "#contact" : "/#contact"}>
-                <NavbarButton
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  variant="secondary"
-                  className="w-full"
-                >
-                  Contact
-                </NavbarButton>
-              </Link>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Resume
-              </NavbarButton>
-            </div>
           </MobileNavMenu>
         </MobileNav>
       </Navbar>

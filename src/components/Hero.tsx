@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { toast } from "sonner"
 
 export default function Hero() {
     return (
@@ -31,7 +32,13 @@ export default function Hero() {
                 {/* <Button variant="outline" size="lg">
                   Contact Me
                 </Button> */}
-                <Button variant="default" size="lg">
+                <Button 
+                  variant="default" 
+                  size="lg" 
+                  onClick={() => toast("Resume coming soon!", {
+                    description: "I'm currently updating my resume. Check back later!",
+                  })}
+                >
                   View my Resume
                 </Button>
               </div>
