@@ -2,7 +2,9 @@
 
 import { BackgroundRippleEffect } from "@/components/BackgroundRippleEffect";
 import { NavbarComponent } from "@/components/Navbar";
-import Hero from "./Hero";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -16,6 +18,12 @@ export default function Home() {
         
         {/* Hero Section */}
         <Hero />
+        
+        {/* Contact Section */}
+        <Contact />
+        
+        {/* Footer */}
+        <Footer />
       </main>
     </div>
   );

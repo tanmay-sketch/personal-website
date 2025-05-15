@@ -2,6 +2,7 @@
 
 import { NavbarComponent } from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 import { BackgroundRippleEffect } from "@/components/BackgroundRippleEffect";
 
 export default function ProjectsPage() {
@@ -16,6 +17,9 @@ export default function ProjectsPage() {
         
         {/* Projects Section */}
         <Projects />
+        
+        {/* Footer */}
+        <Footer />
       </main>
     </div>
   );
