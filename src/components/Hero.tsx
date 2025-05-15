@@ -25,7 +25,7 @@ export default function Hero() {
                 Tanmay Grandhisiri
               </h1>
               <p className="text-xl text-gray-400">
-                I&apos;m passionate about programming, math, and sports.
+                I&apos;m passionate about programming, math, and sports
               </p>
               <div className="flex gap-4">
                 {/* <Button variant="outline" size="lg">
