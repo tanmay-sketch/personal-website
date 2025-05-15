@@ -15,7 +15,7 @@ export default function About() {
           <h2 className="text-5xl font-bold mb-8 text-white">About Me</h2>
           
           <p className="text-zinc-300">
-            I&apos;m an Aspiring AI/ML engineer, studying Computational Data Science at Michigan State. 
+            I&apos;m an aspiring AI/ML engineer, studying Computational Data Science at Michigan State. 
             I love to watch all sorts of sports and play basketball. I believe in constantly learning and 
             am always open to trying out new stuff (as long as I have fun 😅). I also love to play the guitar and piano.
           </p>
