@@ -50,6 +50,11 @@ export function NavbarComponent() {
       link: pathname === "/" ? "#experience" : "/#experience",
     },
     {
+      name: "Blog",
+      link: "https://blog.tanmaygrandhisiri.com",
+      target: "_blank",
+    },
+    {
       name: "Contact",
       link: pathname === "/" ? "#contact" : "/#contact",
     },

@@ -88,5 +88,15 @@
         "tags": ["Web dev and statistics"],
         "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "link": "https://www.valpick.vercel.app"
+    },
+    {
+        "id": 9,
+        "title": "DraftHub",
+        "description": "A draft board for NBA 2025 draft",
+        "image": "/images/projects/drafthub.png",
+        "duration": "Summer 2025",
+        "tags": ["Web dev"],
+        "background": "linear-gradient(135deg, #0ea5e9 0%, #4f46e5 100%)",
+        "link": "https://nbadrafthub.netlify.app"
     }
 ]
