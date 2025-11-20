@@ -5,7 +5,9 @@
         "description": "Correct your square form in realtime using computer vision",
         "image": "/images/projects/freeform.png",
         "duration": "Spartahack 2023",
-        "tags": ["Computer vision"],
+        "tags": [
+            "Computer vision"
+        ],
         "background": "radial-gradient(circle,rgba(150, 0, 0, 1) 19%, rgba(196, 0, 0, 1) 76%, rgba(255, 18, 18, 1) 99%)",
         "link": "https://devpost.com/software/squat-form-analysis"
     },
@@ -15,7 +17,9 @@
         "description": "Generate 3d assets for your projects from text",
         "image": "/images/projects/morphie.jpeg",
         "duration": "Spartahack 2024",
-        "tags": ["Web Dev and LLMs"],
+        "tags": [
+            "Web Dev and LLMs"
+        ],
         "background": "radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%)",
         "link": "https://devpost.com/software/morphie"
     },
@@ -25,7 +29,9 @@
         "description": "Visualize git repositories and get insights into your codebase",
         "image": "/images/projects/gitwiz.png",
         "duration": "MHacks x Google 2024",
-        "tags": ["Web Dev and LLMs"],
+        "tags": [
+            "Web Dev and LLMs"
+        ],
         "background": "radial-gradient(circle,rgba(166, 166, 166, 1) 4%, rgba(107, 107, 107, 1) 62%, rgba(117, 117, 117, 1) 100%)",
         "link": "https://devpost.com/software/gitwiz"
     },
@@ -35,7 +41,9 @@
         "description": "Website to learn backpropagation visually and interactively",
         "image": "/images/projects/learnbackprop.png",
         "duration": "Buildspace 2024",
-        "tags": ["Web Dev"],
+        "tags": [
+            "Web Dev"
+        ],
         "background": "radial-gradient(circle,rgba(217, 43, 185, 1) 0%, rgba(15, 0, 184, 1) 36%, rgba(108, 15, 148, 1) 100%)",
         "link": "https://www.learnbackprop.com"
     },
@@ -45,7 +53,9 @@
         "description": "Easiest way to make flashcards from your text",
         "image": "/images/projects/recallect.png",
         "duration": "Headstarter 2024",
-        "tags": ["Web Dev and LLMs"],
+        "tags": [
+            "Web Dev and LLMs"
+        ],
         "background": "linear-gradient(12deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 31%, rgba(0, 116, 166, 1) 75%, rgba(0, 212, 255, 1) 100%)",
         "link": "https://example.com/recallect"
     },
@@ -55,7 +65,9 @@
         "description": "Read poems in a higher dimension. Click on lines within a poem to connect with other similar poems",
         "image": "/images/projects/verseform.png",
         "duration": "HackMIT 2024",
-        "tags": ["Web Dev and NLP"],
+        "tags": [
+            "Web Dev and NLP"
+        ],
         "background": "radial-gradient(circle,rgba(63, 69, 251, 1) 0%, rgba(26, 26, 26, 1) 100%)",
         "link": "https://github.com/tanmay-sketch/verseform"
     },
@@ -65,7 +77,9 @@
         "description": "Generate podcasts from any article in the voice of your choice",
         "image": "/images/projects/podify.png",
         "duration": "MHacks 2024",
-        "tags": ["Web Dev, LLMs, TTS"],
+        "tags": [
+            "Web Dev, LLMs, TTS"
+        ],
         "background": "radial-gradient(circle,rgba(249, 167, 250, 1) 6%, rgba(123, 0, 194, 1) 100%)",
         "link": "https://devpost.com/software/podify-4ow6lb"
     },
@@ -75,7 +89,9 @@
         "description": "Built a Siamese BERT network for matching job descriptions and resume.",
         "image": "/images/projects/jobfit.png",
         "duration": "Fall 2024",
-        "tags": ["ML and NLP"],
+        "tags": [
+            "ML and NLP"
+        ],
         "background": "linear-gradient(90deg,rgba(118, 118, 122, 1) 0%, rgba(128, 128, 168, 1) 23%, rgba(183, 183, 235, 1) 66%, rgba(209, 247, 255, 1) 100%)",
         "link": "https://github.com/tanmay-sketch/cse-404-fs24-jobfit"
     },
@@ -85,7 +101,9 @@
         "description": "Tool for quantifying the fairness of NFL draft trades",
         "image": "/images/projects/valpick.png",
         "duration": "Spring 2025",
-        "tags": ["Web dev and statistics"],
+        "tags": [
+            "Web dev and statistics"
+        ],
         "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         "link": "https://www.valpick.vercel.app"
     },
@@ -95,8 +113,34 @@
         "description": "A draft board for NBA 2025 draft",
         "image": "/images/projects/drafthub.png",
         "duration": "Summer 2025",
-        "tags": ["Web dev"],
+        "tags": [
+            "Web dev"
+        ],
         "background": "linear-gradient(135deg, #0ea5e9 0%, #4f46e5 100%)",
         "link": "https://nbadrafthub.netlify.app"
+    },
+    {
+        "id": 10,
+        "title": "Mailopolis",
+        "description": "Multi-agent city sustainability simulation game",
+        "image": "/images/projects/mailopolis.jpg",
+        "duration": "MHacks 2025",
+        "tags": [
+            "Web dev and AI agents"
+        ],
+        "background": "linear-gradient(135deg, #b58ecc 0%, #5de6de 100%)",
+        "link": "https://devpost.com/software/mailopolis"
+    },
+    {
+        "id": 11,
+        "title": "HypeZone",
+        "description": "AI-powered hypefeed for live sports",
+        "image": "/images/projects/hypezone.jpg",
+        "duration": "AI ATL 2025",
+        "tags": [
+            "Web dev and AI agents"
+        ],
+        "background": "linear-gradient(135deg, #4158d0 0%, #c850c0 50%, #ffcc70 100%)",
+        "link": "https://devpost.com/software/hypezone"
     }
 ]

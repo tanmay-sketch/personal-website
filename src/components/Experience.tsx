@@ -19,33 +19,33 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "AI/ML Research Intern",
+    company: "Attire",
+    companyLink: "",
+    period: "May 2025 - August 2025",
+    bulletPoints: [
+      "Worked on building Image Segmentation models and agents for a fashion tech startup"
+    ],
+    skills: ['Python', 'PyTorch', 'LangChain'],
+    image: "attire.svg", // Add your image file here
+    imageColor: 'white'
+  },
+  {
     title: "Research Intern",
     company: "SERC IIIT Hyderabad",
     companyLink: "https://serc.iiit.ac.in/",
-    period: "May 2025 - Present",
+    period: "May 2025 - July 2025",
     bulletPoints: [
       "Currently under Dr. Abhishek Singh in Trustworthy Concurrency"
     ],
-    skills: ['Weak Memory Models'],
+    skills: ['C++','Weak Memory Models'],
     image: "serc.svg" // Add your image file here
-  },
-  {
-    title: "AI/ML Research Intern",
-    company: "My Attire LLC",
-    companyLink: "https://www.attireappco.com/",
-    period: "May 2025 - Present",
-    bulletPoints: [
-      "Working on building AI models and agents in a fashion startup"
-    ],
-    skills: ['Python'],
-    image: "attire.svg", // Add your image file here
-    imageColor: 'white'
   },
   {
     title: "Undergraduate Learning Assistant",
     company: "Michigan State University",
     companyLink: "https://msu.edu",
-    period: "August 2023 - Present",
+    period: "August 2023 - May 2025",
     bulletPoints: [
       "Assisted in teaching CMSE 201 (Introduction to Computational Modelling)",
       "Assisted in teaching CMSE 202 (Computational Modelling Tools and Techniques)",
