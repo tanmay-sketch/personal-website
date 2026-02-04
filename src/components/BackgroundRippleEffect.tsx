@@ -76,7 +76,7 @@ export const BackgroundRippleEffect = ({ className }: { className?: string }) =>
     cells.push(
       <div
         key={i}
-        className="border-b border-r border-purple-400/20"
+        className="border-b border-r border-gray-400/20"
         style={{ width: cellSize, height: cellSize }}
       />
     );
@@ -100,7 +100,7 @@ export const BackgroundRippleEffect = ({ className }: { className?: string }) =>
       ref={containerRef}
     >
       {/* Background grid (subtle) */}
-      <div className="absolute inset-0 opacity-40">
+      <div className="absolute inset-0 opacity-60">
         <div style={gridStyle}>{cells}</div>
       </div>
       

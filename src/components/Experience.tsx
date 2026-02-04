@@ -20,14 +20,14 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     title: "AI/ML Research Intern",
-    company: "Attire",
-    companyLink: "",
+    company: "Revy",
+    companyLink: "https://getrevy.app",
     period: "May 2025 - August 2025",
     bulletPoints: [
       "Worked on building Image Segmentation models and agents for a fashion tech startup"
     ],
     skills: ['Python', 'PyTorch', 'LangChain'],
-    image: "attire.svg", // Add your image file here
+    image: "revylogo.svg", // Add your image file here
     imageColor: 'white'
   },
   {

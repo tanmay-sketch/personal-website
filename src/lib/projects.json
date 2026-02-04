@@ -142,5 +142,17 @@
         ],
         "background": "linear-gradient(135deg, #4158d0 0%, #c850c0 50%, #ffcc70 100%)",
         "link": "https://devpost.com/software/hypezone"
+    },
+    {
+        "id": 12,
+        "title": "Drooft",
+        "description": "Draft your ultimate FIFA squad with friends.",
+        "image": "/images/projects/drooft.png",
+        "duration": "January 2026",
+        "tags": [
+            "Web dev"
+        ],
+        "background": "linear-gradient(155deg, #014122 0%, #018141 50%, #00C060 100%)",
+        "link": "https://football-draft.vercel.app"
     }
 ]
