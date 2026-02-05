@@ -100,7 +100,7 @@ export const BackgroundRippleEffect = ({ className }: { className?: string }) =>
       ref={containerRef}
     >
       {/* Background grid (subtle) */}
-      <div className="absolute inset-0 opacity-60">
+      <div className="absolute inset-0 opacity-40">
         <div style={gridStyle}>{cells}</div>
       </div>
       

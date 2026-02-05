@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-violet-900/20">
               <Image
-                src="/images/profilepic.png"
+                src="/images/newprofilepic.png"
                 alt="Tanmay Grandhisiri"
                 fill
                 className="object-cover"
