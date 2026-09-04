@@ -1,22 +1,32 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-jetbrains-mono",
+});
 
 export const metadata: Metadata = {
-  title: "Tanmay Grandhisiri - Personal Website",
-  description: "Welcome to my personal website",
+  title: "Tanmay Grandhisiri",
+  description:
+    "Computational Data Science at Michigan State. Machine learning, systems, and the occasional paper about football.",
   icons: {
     icon: [
       {
-        url: '/logo.svg',
-        href: '/logo.svg',
-      }
-    ]
-  }
+        url: "/logo.svg",
+        href: "/logo.svg",
+      },
+    ],
+  },
+  openGraph: {
+    title: "Tanmay Grandhisiri",
+    description:
+      "Computational Data Science at Michigan State. Machine learning, systems, and the occasional paper about football.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,10 +35,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} min-h-screen bg-background`}>
+    <html lang="en" className={jetbrainsMono.variable}>
+      <body className="bg-bg text-fg min-h-screen">
         {children}
-        <Toaster />
         <Analytics />
       </body>
     </html>
