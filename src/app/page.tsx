@@ -218,7 +218,9 @@ export default function Home() {
           <li>
             <a href="mailto:grandhisiri.tanmay@yahoo.com">email</a>
           </li>
-          <li className="text-fg-dim">projects — soon</li>
+          <li>
+            <Link href="/projects">projects</Link>
+          </li>
           <li className="text-fg-dim">cooking — soon</li>
         </ul>
       </details>
